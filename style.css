@@ -1,0 +1,514 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family: 'league spartan', sans-serif;
+    font-size: 15px;
+}
+
+.parent-container {
+    height: 100vh;
+    max-width: 100%;
+    background-color:  hsl(300, 24%, 96%);
+    background-image: url(bg-pattern-top-desktop.svg),url(bg-pattern-bottom-desktop.svg) ;
+    background-repeat: no-repeat, no-repeat;
+    background-position:left 0em bottom 31.3em,bottom 0em right -2.7em; 
+} 
+
+.container-1 {
+    display: flex;
+    padding-inline: 10em;
+    padding-top: 4em;
+    padding-bottom: 3.3em;
+    
+}
+
+h1 {
+   color:hsl(300, 43%, 22%); 
+   font-size: 3.5rem;
+   margin-bottom: 0;
+   font-weight: 700;
+}
+
+.first-section {
+    width: 50%;
+}
+
+.first-section p {
+    color: hsl(303, 10%, 53%);
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+.second-section {
+    width: 50%;
+    margin-left: 6.7em;
+}
+
+.star-container-1  {
+    background-color: rgb(245, 231, 245);
+    height: 2.7em;
+    width: 28.7em;
+    margin: 4.7em 0em 0.7em 3.3em;
+    padding: 1.7em 0em 2.3em 3.3em;
+    border-radius: 0.7em;
+}
+
+.star-container-1 > .image-container {
+    display: inline;
+}
+
+.star-container-1 p {
+    display: inline;
+    margin-left: 3.3em;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.star-container-2 {
+    background-color: rgb(245, 231, 245);
+    height: 2.7em;
+    width: 28.7em;
+    margin: 1.3em 0em 1.3em 6.7em;
+    padding: 1.7em 0em 2.3em 3.3em;
+    border-radius: 0.7em;
+  
+}
+
+.star-container-2 > .image-container {
+    display: inline;
+}
+
+.star-container-2 p {
+    display: inline;
+    margin-left: 3.3em;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.star-container-3 {
+    background-color: rgb(245, 231, 245);
+    height: 2.7em;
+    width: 28.7em;
+    margin: 0.7em 0em 0.7em 10em;
+    padding: 1.7em 0em 2.3em 3.3em;
+    border-radius: 0.7em;
+    font-weight: 700;
+}
+.star-container-3 > .image-container {
+    display: inline;
+    
+}
+
+.star-container-3 p {
+    display: inline;
+    margin-left: 3.3em;
+    color: hsl(300, 43%, 22%);
+}
+
+
+.container-2 {
+    display: flex;
+    padding-inline: 10em;
+    padding-block: 0em;
+}
+
+.third-section {
+    background-color: hsl(300, 43%, 22%);
+    height: 14.7em;
+    width:24.7em;
+    margin-right: 2.3em;
+    border-radius: 0.7em;
+    padding: 2.5em;
+
+}
+
+.fourth-section {
+    background-color: hsl(300, 43%, 22%);
+    height: 14.7em;
+    width:24.7em;
+    margin-right: 2.3em;
+    border-radius: 0.7em;
+    margin-top: 1.3em;
+    padding: 2em;
+}
+
+.fifth-section {
+    background-color: hsl(300, 43%, 22%);
+    height: 14.7em;
+    width:24.7em;
+    margin-right: 2.3em;
+    border-radius: 0.7em;
+    margin-top: 2.7em;
+    padding: 2em;
+
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 2.7em;
+}
+
+h3 {
+    display: inline;
+    color: white;
+}
+
+.para-pink {
+    color: hsl(333, 80%, 67%);
+    margin: 0em;
+}
+
+section p {
+    color: hsl(0, 0%, 100%);
+    padding: 0.33em;
+}
+.third-section .profile-photo {
+    float: left;
+    margin-right: 20px;
+}
+
+ .fourth-section .profile-photo {
+    float: left;
+    margin-right: 20px;
+}
+
+.fifth-section .profile-photo {
+    float: left;
+    margin-right: 20px;
+}
+
+
+.fifth-section h3, .fifth-section h3 {
+    margin: 0;
+}
+
+@media (min-width:360px) and (max-width:375px) {
+    .parent-container {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+        background-image: url(bg-pattern-top-mobile.svg), url(bg-pattern-bottom-mobile.svg);
+        background-position:left 0em bottom 88em,bottom 0em right 0em; 
+        background-repeat: no-repeat,no-repeat;
+        
+    } 
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .first-section {
+        width: 100%;
+        padding-top: 1.5em ;
+        padding-inline: 1em;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .first-section p {
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        padding: 0;
+        padding-top: 0.5em;
+    }
+
+    .second-section {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .star-container-1 {
+        margin-left: 0;
+        height: 5.7em;
+        width: 100%;
+        padding: 0;
+        padding-top: 1.3em;
+        padding-left: 0em;
+        padding-bottom: 2em;
+        margin-bottom: 1.8em;
+        margin-top: 1.5em;
+    }
+
+    .star-container-1 p {
+        display: block;
+        margin: 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .star-container-1 > .image-container {
+        margin-left: 6.7em;
+         
+    }
+
+    .star-container-2 {
+        margin-left: 0;
+        height: 5.7em;
+        width: 100%;
+        padding: 0;
+        padding-top: 1.3em;
+        padding-left: 0em;
+        padding-bottom: 2em;
+        margin-bottom: 1.8em;
+    }
+
+    .star-container-2 p {
+        display: block;
+        margin: 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .star-container-2 > .image-container {
+        margin-left: 6.7em;
+         
+    }
+
+    
+    .star-container-3 {
+        margin-left: 0;
+        height: 5.7em;
+        width: 100%;
+        padding: 0;
+        padding-top: 1.3em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+        margin-bottom: 3.5em;
+    }
+
+    .star-container-3 > .image-container {
+        margin-left: 6.7em;
+         
+        
+    }
+
+    .star-container-3 p {
+        display: block;
+        margin: 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+
+
+    .container-2 {
+        padding: 0em;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .third-section {
+        background-color: hsl(300, 43%, 22%);
+        height: 15.7em;
+        width:100%;
+        margin-right: 0em;
+        border-radius: 0.7em;
+        padding: 2.5em;
+        padding-bottom: 2em;
+        line-height: 1.3;
+    
+    }
+
+    .fourth-section {
+        background-color: hsl(300, 43%, 22%);
+        height: 15.7em;
+        width:100%;
+        margin-right: 0em;
+        border-radius: 0.7em;
+        margin-top: 1.3em;
+        padding: 2em;
+        line-height: 1.3;
+    }
+
+    .fifth-section {
+        background-color: hsl(300, 43%, 22%);
+        height: 15.7em;
+        width:100%;
+        margin-right: 0em;
+        margin-left: 0em;
+        border-radius: 0.7em;
+        margin-top: 2.7em;
+        padding: 2em;
+        line-height: 1.3;
+    
+    }
+
+}
+
+@media (min-width:376px) and (max-width:430px) {
+    .parent-container {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+        background-image: url(bg-pattern-top-mobile.svg), url(bg-pattern-bottom-mobile.svg);
+        background-position:left 0em bottom 88em,bottom 0em right 0em; 
+        background-repeat: no-repeat,no-repeat;
+        
+    } 
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .first-section {
+        width: 100%;
+        padding-top: 1.5em ;
+        padding-inline: 1em;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .first-section p {
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        padding: 0;
+        padding-top: 0.5em;
+    }
+
+    .second-section {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .star-container-1 {
+        margin-left: 0;
+        height: 5.7em;
+        width: 100%;
+        padding: 0;
+        padding-top: 1.3em;
+        padding-left: 0em;
+        padding-bottom: 2em;
+        margin-bottom: 1.8em;
+        margin-top: 1.5em;
+    }
+
+    .star-container-1 p {
+        display: block;
+        margin: 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .star-container-1 > .image-container {
+        margin-left: 6.7em;
+         
+    }
+
+    .star-container-2 {
+        margin-left: 0;
+        height: 5.7em;
+        width: 100%;
+        padding: 0;
+        padding-top: 1.3em;
+        padding-left: 0em;
+        padding-bottom: 2em;
+        margin-bottom: 1.8em;
+    }
+
+    .star-container-2 p {
+        display: block;
+        margin: 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .star-container-2 > .image-container {
+        margin-left: 6.7em;
+         
+    }
+
+    
+    .star-container-3 {
+        margin-left: 0;
+        height: 5.7em;
+        width: 100%;
+        padding: 0;
+        padding-top: 1.3em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+        margin-bottom: 3.5em;
+    }
+
+    .star-container-3 > .image-container {
+        margin-left: 6.7em;
+         
+        
+    }
+
+    .star-container-3 p {
+        display: block;
+        margin: 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+
+
+    .container-2 {
+        padding: 0em;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .third-section {
+        background-color: hsl(300, 43%, 22%);
+        height: 15.7em;
+        width:100%;
+        margin-right: 0em;
+        border-radius: 0.7em;
+        padding: 2.5em;
+        padding-bottom: 2em;
+        line-height: 1.3;
+    
+    }
+
+    .fourth-section {
+        background-color: hsl(300, 43%, 22%);
+        height: 15.7em;
+        width:100%;
+        margin-right: 0em;
+        border-radius: 0.7em;
+        margin-top: 1.3em;
+        padding: 2em;
+        line-height: 1.3;
+    }
+
+    .fifth-section {
+        background-color: hsl(300, 43%, 22%);
+        height: 15.7em;
+        width:100%;
+        margin-right: 0em;
+        margin-left: 0em;
+        border-radius: 0.7em;
+        margin-top: 2.7em;
+        padding: 2em;
+        line-height: 1.3;
+    
+    }
+
+}
