@@ -22,13 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](./images/FireShot%20Capture%20001%20-%20Social-proof-section%20-%20127.0.0.1.png)
+![screenshot](FireShot%20Capture%20001%20-%20Social-proof-section%20-%20127.0.0.1.png)
 
 
 ### Links
 
 - Solution URL: [taophycc.github.io](https://github.com/Taophycc/Social-proof-section.git)
-- Live Site URL: [taophycc.github.io](https://taophycc.github.io/Social-proof-section/#)
+- Live Site URL: [taophycc.github.io](https://taophycc.github.io/Social-proof-section/)
 
 
 ### Built with
