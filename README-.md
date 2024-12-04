@@ -38,7 +38,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [taophycc.github.io](https://www.your-site.com)
 - Frontend Mentor - [@taophycc](https://www.frontendmentor.io/profile/taophycc)
-- Twitter - [@yourusername](https://www.twitter.com/taophyc_)
+- Twitter - [@taophyc](https://www.twitter.com/taophyc_)
 
