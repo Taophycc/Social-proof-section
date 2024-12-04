@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [taophycc.github.io](https://)
-- Live Site URL: [taophycc.github.io](https://)
+- Solution URL: [taophycc.github.io](https://github.com/Taophycc/Social-proof-section.git)
+- Live Site URL: [taophycc.github.io](https://taophycc.github.io/Social-proof-section/#)
 
 
 ### Built with
